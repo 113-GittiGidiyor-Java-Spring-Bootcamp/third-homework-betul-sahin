@@ -1,4 +1,4 @@
-package com.example.schoolmanagementsystemdemov3;
+package com.betulsahin.schoolmanagementsystemdemov3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

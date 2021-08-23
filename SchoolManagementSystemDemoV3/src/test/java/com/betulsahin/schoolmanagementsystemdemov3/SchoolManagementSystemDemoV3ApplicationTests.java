@@ -1,4 +1,4 @@
-package com.example.schoolmanagementsystemdemov3;
+package com.betulsahin.schoolmanagementsystemdemov3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
