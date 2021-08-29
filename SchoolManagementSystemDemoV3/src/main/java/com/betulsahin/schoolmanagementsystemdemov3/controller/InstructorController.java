@@ -34,6 +34,13 @@ public class InstructorController {
                 HttpStatus.OK);
     }
 
+    @GetMapping("/top3BySalaryGreaterThan")
+    public ResponseEntity<List<?>> getAllTop3BySalaryGreaterThan(){
+        return new ResponseEntity<>(
+                instructorService.findAllTop3BySalaryGreaterThan(),
+                HttpStatus.OK);
+    }
+
     @GetMapping("{id}")
     public ResponseEntity<Instructor> getInstructor(@PathVariable Long id) {
         return new ResponseEntity<>(

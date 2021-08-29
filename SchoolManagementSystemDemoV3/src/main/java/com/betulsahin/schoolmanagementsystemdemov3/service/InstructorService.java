@@ -41,6 +41,16 @@ public class InstructorService implements BaseService<Instructor> {
         return instructors;
     }
 
+    @Transactional(readOnly = true)
+    public List<?> findAllTop3BySalaryGreaterThan(){
+        List<Object> instructors = new ArrayList<>();
+        instructorRepository.findAllTop3BySalaryGreaterThan()
+                .iterator()
+                .forEachRemaining(instructors::add);
+
+        return instructors;
+    }
+
     @Override
     @Transactional(readOnly = true)
     public Instructor findById(Long id) {

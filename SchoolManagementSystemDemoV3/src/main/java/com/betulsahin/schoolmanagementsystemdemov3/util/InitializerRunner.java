@@ -122,13 +122,13 @@ public class InitializerRunner implements CommandLineRunner {
 
         // create instructors
         Instructor instructor1 = new VisitingResearcher("Şadi Evren Şeker", "İstanbul", "05554331256", 40, 250.0);
-        Instructor instructor2 = new PermanentInstructor("Engin Demiroğ", "Ankara", "05554331256", 10000.0);
-        Instructor instructor3 = new PermanentInstructor("Uras Mutlu", "İstanbul", "05554331256", 10000.0);
+        Instructor instructor2 = new PermanentInstructor("Engin Demiroğ", "Ankara", "05554331256", 20000.0);
+        Instructor instructor3 = new PermanentInstructor("Uras Mutlu", "İstanbul", "05554331256", 12500.0);
         Instructor instructor4 = new VisitingResearcher("Gizem Gezici", "Ankara", "05554331256", 40, 250.0);
         Instructor instructor5 = new VisitingResearcher("Zafer Cömert", "İzmir", "05554331256", 40, 250.0);
-        Instructor instructor6 = new PermanentInstructor( "Fahrettin Erdinç", "İstanbul", "05554331256", 10000);
+        Instructor instructor6 = new PermanentInstructor( "Fahrettin Erdinç", "İstanbul", "05554331256", 18900);
         Instructor instructor7 = new PermanentInstructor("Talha Kılıç", "Ankara", "05554331256", 10000);
-        Instructor instructor8 = new PermanentInstructor( "Ömer Faruk Çolakoğlu", "İstanbul", "05554331256", 10000);
+        Instructor instructor8 = new PermanentInstructor( "Ömer Faruk Çolakoğlu", "İstanbul", "05554331256", 35000);
 
         // save instructors
         instructor1 = instructorRepository.save(instructor1);
